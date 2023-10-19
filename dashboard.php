@@ -14,8 +14,6 @@ $userData = $userDao->verifyToken(true);
 
 $userMovies = $movieDao->getMoviesByUsers($userData->id);
 
-
-
 ?>
 <div id="main-container" class="container-fluid">
     <h2 class="section-title"> Dashboard</h2>
